@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="jK.p]ZZ;/$sbIjBB_IWH" x="392" y="-135"><statement name="HANDLER"><block type="controls_repeat_ext" id="~E~mtyXltXdlPcG86;hR"><value name="TIMES"><shadow type="math_whole_number" id="zP}7RS{F.a_|9N9l7VHy"><field name="NUM">999999999999</field></shadow></value><statement name="DO"><block type="device_show_leds" id="{8o*0_r:;xziS9}6Zyt;"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="gR`1[kmX#OIGHIde4=fh"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id=")8F0nq#QS1@fyE191gQ@" x="775" y="-56"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_number" id="hgNl}]uv?B:-s/rdSb0R"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="DK:g.(HZnfi5f5Cv/M+Y"><value name="min"><shadow type="math_number" id="{rbQO-;C_+KKT.S_zRwH"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="j6SC(uV2cTss9t@)NmuA"><field name="NUM">6</field></shadow></value></block></value></block></statement></block><block type="device_button_event" id="[]jGm1:k~@ou]:s*aXI6" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="tn8~AZWlAYBFcd.ZK0dD"><value name="text"><shadow type="text" id="*`q;+aqlXoQD-.DT+OPe"><field name="TEXT">hello World </field></shadow></value><next><block type="device_show_leds" id="v3Q0$X2NV04.gjU/_hA#"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="49ScE,2BPHcFCrjS$s7B"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="Gf5_?lI(sQ3JOy|59Oer"><field name="soundExpression">soundExpression.giggle</field></shadow></value><next><block type="device_show_leds" id="IQr3{pF57k7$rY#5lC6p"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="~I]6nb$h2V_v|eV[Cy-n" x="432" y="539"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="Q=#[cm.n*ZrbH$8?g5GX"><field name="LEDS">`
+        . . . # # 
+        . . . # . 
+        . . # # . 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="F[O^?(u_j@N/+h8=+FTs"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="?m;oWEiL#53EM!p4V@?H"><value name="melody"><shadow type="melody_editor" id=")fNe#u!#4dS:8.CZZ;TD"><field name="melody">"G F G A - F E D "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="2Z1;]I|~C-k!/,i6pZxE"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
